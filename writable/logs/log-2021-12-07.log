@@ -1,0 +1,121 @@
+CRITICAL - 2021-12-07 06:02:22 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\SMS\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\SMS\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\SMS\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\SMS\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-07 06:32:29 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\SMS\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\SMS\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\SMS\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\SMS\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-07 06:32:41 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\SMS\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\SMS\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\SMS\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\SMS\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-07 00:17:25 --> Invalid file: headerf.php
+#0 C:\xampp\htdocs\SMS\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('headerf.php')
+#1 C:\xampp\htdocs\SMS\system\View\View.php(432): CodeIgniter\View\View->render('headerf', NULL, true)
+#2 C:\xampp\htdocs\SMS\app\Views\School\index.php(1): CodeIgniter\View\View->include('headerf')
+#3 C:\xampp\htdocs\SMS\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\SMS\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\SMS\system\Common.php(1097): CodeIgniter\View\View->render('School/index', Array, true)
+#6 C:\xampp\htdocs\SMS\app\Controllers\School.php(9): view('School/index')
+#7 C:\xampp\htdocs\SMS\system\CodeIgniter.php(824): App\Controllers\School->index()
+#8 C:\xampp\htdocs\SMS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\School))
+#9 C:\xampp\htdocs\SMS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\SMS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-07 00:51:25 --> syntax error, unexpected 'foreach' (T_FOREACH)
+#0 C:\xampp\htdocs\SMS\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\SMS\system\Common.php(1097): CodeIgniter\View\View->render('School/index', Array, true)
+#2 C:\xampp\htdocs\SMS\app\Controllers\School.php(13): view('School/index', Array)
+#3 C:\xampp\htdocs\SMS\system\CodeIgniter.php(824): App\Controllers\School->index()
+#4 C:\xampp\htdocs\SMS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\School))
+#5 C:\xampp\htdocs\SMS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SMS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-07 00:51:33 --> syntax error, unexpected 'foreach' (T_FOREACH)
+#0 C:\xampp\htdocs\SMS\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\SMS\system\Common.php(1097): CodeIgniter\View\View->render('School/index', Array, true)
+#2 C:\xampp\htdocs\SMS\app\Controllers\School.php(13): view('School/index', Array)
+#3 C:\xampp\htdocs\SMS\system\CodeIgniter.php(824): App\Controllers\School->index()
+#4 C:\xampp\htdocs\SMS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\School))
+#5 C:\xampp\htdocs\SMS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SMS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-07 00:51:46 --> syntax error, unexpected 'as' (T_AS), expecting ')'
+#0 C:\xampp\htdocs\SMS\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\SMS\system\Common.php(1097): CodeIgniter\View\View->render('School/index', Array, true)
+#2 C:\xampp\htdocs\SMS\app\Controllers\School.php(13): view('School/index', Array)
+#3 C:\xampp\htdocs\SMS\system\CodeIgniter.php(824): App\Controllers\School->index()
+#4 C:\xampp\htdocs\SMS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\School))
+#5 C:\xampp\htdocs\SMS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SMS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-07 00:52:38 --> syntax error, unexpected 'as' (T_AS), expecting ')'
+#0 C:\xampp\htdocs\SMS\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\SMS\system\Common.php(1097): CodeIgniter\View\View->render('School/index', Array, true)
+#2 C:\xampp\htdocs\SMS\app\Controllers\School.php(13): view('School/index', Array)
+#3 C:\xampp\htdocs\SMS\system\CodeIgniter.php(824): App\Controllers\School->index()
+#4 C:\xampp\htdocs\SMS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\School))
+#5 C:\xampp\htdocs\SMS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SMS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-07 00:52:46 --> syntax error, unexpected 'foreach' (T_FOREACH)
+#0 C:\xampp\htdocs\SMS\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\SMS\system\Common.php(1097): CodeIgniter\View\View->render('School/index', Array, true)
+#2 C:\xampp\htdocs\SMS\app\Controllers\School.php(13): view('School/index', Array)
+#3 C:\xampp\htdocs\SMS\system\CodeIgniter.php(824): App\Controllers\School->index()
+#4 C:\xampp\htdocs\SMS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\School))
+#5 C:\xampp\htdocs\SMS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SMS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-07 00:53:13 --> syntax error, unexpected '(', expecting ';'
+#0 C:\xampp\htdocs\SMS\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\SMS\system\Common.php(1097): CodeIgniter\View\View->render('School/index', Array, true)
+#2 C:\xampp\htdocs\SMS\app\Controllers\School.php(13): view('School/index', Array)
+#3 C:\xampp\htdocs\SMS\system\CodeIgniter.php(824): App\Controllers\School->index()
+#4 C:\xampp\htdocs\SMS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\School))
+#5 C:\xampp\htdocs\SMS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SMS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-07 01:34:34 --> Class 'App\Database\Migrations\Migrations' not found
+#0 C:\xampp\htdocs\SMS\system\Database\MigrationRunner.php(814): include_once()
+#1 C:\xampp\htdocs\SMS\system\Database\MigrationRunner.php(186): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#2 C:\xampp\htdocs\SMS\app\Controllers\Migrate.php(11): CodeIgniter\Database\MigrationRunner->latest()
+#3 C:\xampp\htdocs\SMS\system\CodeIgniter.php(824): App\Controllers\Migrate->index()
+#4 C:\xampp\htdocs\SMS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+#5 C:\xampp\htdocs\SMS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SMS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-07 01:35:12 --> Class 'App\Database\Migrations\Migrations' not found
+#0 C:\xampp\htdocs\SMS\system\Database\MigrationRunner.php(814): include_once()
+#1 C:\xampp\htdocs\SMS\system\Database\MigrationRunner.php(186): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#2 C:\xampp\htdocs\SMS\app\Controllers\Migrate.php(11): CodeIgniter\Database\MigrationRunner->latest()
+#3 C:\xampp\htdocs\SMS\system\CodeIgniter.php(824): App\Controllers\Migrate->index()
+#4 C:\xampp\htdocs\SMS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+#5 C:\xampp\htdocs\SMS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SMS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-07 01:35:37 --> Class 'App\Database\Migrations\Migrations' not found
+#0 C:\xampp\htdocs\SMS\system\Database\MigrationRunner.php(814): include_once()
+#1 C:\xampp\htdocs\SMS\system\Database\MigrationRunner.php(186): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#2 C:\xampp\htdocs\SMS\app\Controllers\Migrate.php(11): CodeIgniter\Database\MigrationRunner->latest()
+#3 C:\xampp\htdocs\SMS\system\CodeIgniter.php(824): App\Controllers\Migrate->index()
+#4 C:\xampp\htdocs\SMS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+#5 C:\xampp\htdocs\SMS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SMS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-07 01:36:05 --> Class 'App\Database\Migrations\Migrations' not found
+#0 C:\xampp\htdocs\SMS\system\Database\MigrationRunner.php(814): include_once()
+#1 C:\xampp\htdocs\SMS\system\Database\MigrationRunner.php(186): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#2 C:\xampp\htdocs\SMS\app\Controllers\Migrate.php(11): CodeIgniter\Database\MigrationRunner->latest()
+#3 C:\xampp\htdocs\SMS\system\CodeIgniter.php(824): App\Controllers\Migrate->index()
+#4 C:\xampp\htdocs\SMS\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Migrate))
+#5 C:\xampp\htdocs\SMS\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SMS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
